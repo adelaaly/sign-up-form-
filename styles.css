@@ -1,0 +1,96 @@
+body{
+    background-image: url(Mask.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 131px;
+}
+#bloc{
+    height: fit-content;
+    width: 600px;
+    background-color: rgb(246, 251, 249);
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px; 
+    border-radius: 49.09px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+#head{
+    width: '500'px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+h1{
+    font-family: "Karma" , sans-serif;
+    font-size: 55.23px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#P1 {
+    font-size: 23.01px;
+    font-family: "Karma" , sans-serif;
+    font-weight: lighter;
+    opacity: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 7px;
+    width: 440px;
+    line-height: 35px;
+
+    
+}
+#P2 {
+    font-size: 21.48px;
+    font-family: "Karma" , sans-serif;
+    opacity: 90%;
+}
+#case {
+    width: 575.27px;
+    height: 84.37px;
+    border-radius: 15.34px;
+    border: 0px;
+    margin-bottom: 23px;
+    box-shadow: 0px 0px 10px rgb(132, 199, 174);
+
+    
+}
+
+::placeholder {
+    color: grey;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 15px;
+
+  }
+#case2 {
+    width: 575.27px;
+    height: 84.37px;
+    border-radius: 15.34px;
+    border: 0px;
+    box-shadow: 0px 0px 10px rgb(132, 199, 174);
+}
+
+#submit{
+    font-size: 33.75px;
+    font-weight: bold;
+    color: white;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 73px;
+    padding-left: 73px;
+    border: 0px;
+    border-radius: 23.01px;  
+    background-color: rgb(132, 199, 174);
+    margin-top: 32px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 10px #9f9f9f;
+
+}
+#submit:hover, #submit:active {
+    box-shadow: 2 1 10px rgb(131, 131, 133);
+    -webkit-transform: scale(1,1);
+    transform: scale(1.03)
